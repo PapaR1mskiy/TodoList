@@ -1,0 +1,86 @@
+body {
+	background-color: #a2a9ae9e;
+	font-family: 'Open Sans', sans-serif;
+}
+.todo-list {
+	background-color: #fff;
+	margin: 0 auto;
+    display: block;
+    max-width: 800px;
+    border: 1px solid #a2a2a2;
+    box-shadow: 0 5px 30px rgb(0 0 0 / 20%);
+    transition: all .3s;
+    border-radius: 20px;
+    overflow: hidden;
+    word-break: break-all;
+}
+.todo-list:hover {
+    box-shadow: 0 5px 30px rgb(0 0 0 / 40%);	
+}
+
+.form-add-task {
+	text-align: center;
+}
+
+.btn {
+	padding: 8px;
+	display: inline-block;
+	border-radius: 6px;
+	outline: none;
+	background-color: #0769ad;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	font-size: 15px;
+    transition: all .1s;
+}
+.btn:hover {
+	background-color: #0769adb3;
+}
+.task-list-default {
+	position: relative;
+}
+.input-add-task{
+	width: 300px;
+	height: 25px;
+	border-radius: 4px;
+	border: 2px solid #000;
+	font-size: 15px;
+	color: #000;
+	margin-top: 30px;
+}
+.checkbox__input {
+	display: none;
+}
+.tli-text:hover {
+	color: #7c7c7c;
+	cursor: pointer;
+}
+
+.task-list-item{
+	letter-spacing: 1.2px;
+	margin: 10px;
+	list-style: none;
+}
+.task-list-item::after {
+	margin-top: 5px;
+	content: '';
+	display: block;
+	width: 500px;
+	background-color: #a2a9ae9e;
+	height: 1px;
+}
+
+.tli-input-edit {
+    width: 300px;
+    height: 25px;
+    border-radius: 4px;
+    border: 2px solid #000;
+    font-size: 15px;
+    color: #000;
+    margin-top: 30px
+}
+
+.hide {
+	display: none;
+}
